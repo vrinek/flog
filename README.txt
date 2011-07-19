@@ -9,6 +9,12 @@ rdoc :: http://seattlerb.rubyforge.org/flog
 Flog reports the most tortured code in an easy to read pain
 report. The higher the score, the more pain the code is in.
 
+== DIFFERENCES:
+
+The only differences present in this version of flog are
+visual:
+* Added colors to the output for better readability
+
 == FEATURES/PROBLEMS:
 
 * Easy to read reporting of complexity/pain.
@@ -31,7 +37,8 @@ report. The higher the score, the more pain the code is in.
 
 == INSTALL:
 
-* sudo gem install flog
+* rake package
+* gem install --local pkg/flog-2.5.1
 
 == LICENSE:
 
